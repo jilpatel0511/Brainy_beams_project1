@@ -1,0 +1,26 @@
+<form method="POST">
+    {% csrf_token %}
+    <div style="text-align:center">
+    <label> Enter your name</label>
+    <br>
+    <input type="text" name="nm">
+    <br>
+    <label> Enter your email </label>
+    <br>
+    <input type="text" name="em">
+    <br>
+    <label> Enter the number</label>
+    <br>
+    <input type="number" name="nos">
+    <br>
+    <label> Enter your password</label>
+    <br>
+    <input type="text" name="pass">
+    <br>
+    <label> Re-enter your password</label>
+    <br>
+    <input type="text" name="re_pass">
+    <br>
+    <input type="submit" name="signup">
+    </div>
+</form

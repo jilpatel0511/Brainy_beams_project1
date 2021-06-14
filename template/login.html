@@ -1,0 +1,16 @@
+<form method="POST" >
+    {% csrf_token %}
+    <div style="text-align:center">
+    <label> Enter your register email id</label>
+    <br>
+    <input type="email" name="em" >
+    <br>
+    <label> Enter your password</label>
+    <br>
+    <input type="text" name="pass">
+    <br>
+    <br>
+    <input type="submit" value="login">
+    <input type="submit" value="signup" name="signup">
+    </div>
+</form>
